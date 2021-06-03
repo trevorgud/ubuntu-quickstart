@@ -24,7 +24,7 @@ mkdir -p ~/git
 # set git name/email
 myname="Trevor Gudmundsen"
 myemail="trevor@ennetix.com"
-git config --global user.name $myname
+git config --global user.name "$myname"
 git config --global user.email $myemail
 
 # common settings and env variable loading on login
