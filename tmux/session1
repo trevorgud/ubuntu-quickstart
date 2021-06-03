@@ -1,0 +1,4 @@
+split-window -v -p 40
+selectp -t 0
+split-window -h
+selectp -t 0
