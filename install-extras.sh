@@ -53,6 +53,7 @@ wget ~/.vim/colors/ https://raw.githubusercontent.com/altercation/vim-colors-sol
 # import tmux settings
 mkdir -p ~/.tmux
 wget -P ~/.tmux/ https://raw.githubusercontent.com/trevorgud/ubuntu-quickstart/main/tmux/session1
+wget -P ~/ https://raw.githubusercontent.com/trevorgud/ubuntu-quickstart/main/tmux/.tmux.conf
 
 #import docker settings
 mkdir -p ~/.docker
