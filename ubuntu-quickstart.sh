@@ -24,6 +24,8 @@ DEBIAN_FRONTEND=noninteractive apt-get install -y \
   libcurl4-openssl-dev \
   libpcap-dev \
   librdkafka-dev \
+  libreoffice \
+  libreoffice-gnome \
   libspdlog-dev \
   libssl-dev \
   libtins-dev \
@@ -42,6 +44,7 @@ DEBIAN_FRONTEND=noninteractive apt-get install -y \
   tcpdump \
   tcpreplay \
   telnet \
+  texlive-latex-extra \
   tmux \
   unzip \
   vim \

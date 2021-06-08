@@ -30,10 +30,10 @@ git config --global user.email $myemail
 # common settings and env variable loading on login
 echo 'setxkbmap -option caps:escape' >> ~/.profile
 echo 'NODE_OPTIONS=--max_old_space_size=4096' >> ~/.profile
-echo 'SBT_OPTS="-XX:+CMSClassUnloadingEnabled -XX:MaxPermSize=4G -Xms4G -Xmx4G -XX:MaxMetaspaceSize=4G"' >> ~/.profile
+echo 'SBT_OPTS="-XX:+CMSClassUnloadingEnabled -Xms4G -Xmx4G -XX:MaxMetaspaceSize=4G"' >> ~/.profile
 echo 'setxkbmap -option caps:escape' >> ~/.bashrc
 echo 'NODE_OPTIONS=--max_old_space_size=4096' >> ~/.bashrc
-echo 'SBT_OPTS="-XX:+CMSClassUnloadingEnabled -XX:MaxPermSize=4G -Xms4G -Xmx4G -XX:MaxMetaspaceSize=4G"' >> ~/.bashrc
+echo 'SBT_OPTS="-XX:+CMSClassUnloadingEnabled -Xms4G -Xmx4G -XX:MaxMetaspaceSize=4G"' >> ~/.bashrc
 
 # import sublime-text settings
 git clone https://github.com/vuejs/vue-syntax-highlight.git ~/.config/sublime-text-3/Packages/
