@@ -55,10 +55,10 @@ DEBIAN_FRONTEND=noninteractive apt-get install -y \
 curl -sL https://deb.nodesource.com/setup_14.x | bash -
 
 # install terraform
-wget https://releases.hashicorp.com/terraform/0.15.5/terraform_0.15.5_linux_amd64.zip
-unzip terraform_0.15.5_linux_amd64.zip
+wget https://releases.hashicorp.com/terraform/1.0.0/terraform_1.0.0_linux_amd64.zip
+unzip terraform_1.0.0_linux_amd64.zip
 mv terraform /usr/local/bin/
-rm terraform_0.15.5_linux_amd64.zip
+rm terraform_1.0.0_linux_amd64.zip
 
 # prepare gcloud
 curl https://packages.cloud.google.com/apt/doc/apt-key.gpg | apt-key add -
